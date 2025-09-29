@@ -1,0 +1,24 @@
+{
+    "name": "richardolaolu/libraryapp",
+    "description": "Library application",
+    "require": {
+        "nesbot/carbon": "^3.10",
+        "ramsey/uuid": "^4.9",
+        "symfony/var-dumper": "^7.3",
+        "doctrine/collections": "^2.3",
+        "phpunit/phpunit": "^12.3",
+        "doctrine/dbal": "^4.3",
+        "illuminate/database": "^12.31"
+    },
+    "autoload": {
+        "psr-4": {
+            "Richardolaolu\\Libraryapp\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "RichardOlaolu",
+            "email": "oladipupoayomikun24@gmail.com"
+        }
+    ]
+}
